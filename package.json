@@ -1,0 +1,13 @@
+{
+  "name": "highlighter",
+  "version": "0.0.1",
+  "description": "make highlight reels",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm install && node src/server"
+  },
+  "author": "al whiting",
+  "dependencies": {
+    "async": "^2.6.0"
+  }
+}

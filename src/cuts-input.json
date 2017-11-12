@@ -1,0 +1,20 @@
+{
+    "root": "G:/randomgamevideos",
+    "output": "G:/randomgamevideos/hoop.mp4",
+    "cuts": [
+        {
+            "file": "fort_3-1.mp4",
+            "start": "00:00:00",
+            "end": "00:00:10"
+        },
+        {
+            "file": "fort_1-1.mp4",
+            "start": "00:00:25"
+        },
+        {
+            "file": "fort_3-1.mp4",
+            "start": "00:00:05",
+            "end": "00:00:12"
+        }
+    ]
+}
