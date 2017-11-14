@@ -16,7 +16,7 @@ module.exports = {
             if (err) return done(err);
 
             const concatFilesList = 'concat-slices';
-            fs.writeFile(path.join(partsDir, concatFigit alesList), files.map(file => `file '${path.join(partsDir, file)}'`).join(EOL), err => {
+            fs.writeFile(path.join(partsDir, concatFilesList), files.map(file => `file '${path.join(partsDir, file)}'`).join(EOL), err => {
                 if (err) return done(err);
 
                 const concatCmd = `ffmpeg -y -f concat -safe 0 -i "${path.join(partsDir, concatFilesList)}" -c copy ${saveAs}`;
